@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Mususumeli Logistics for construction materials and equipment transport enquiries.">
+    <title>Contact Us | Mususumeli Logistics</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-main">MUSUSUMELI</span>
+            <span class="logo-sub">LOGISTICS</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="fleet.html">Fleet</a>
+            <a href="industries.html">Industries</a>
+            <a href="contact.html" class="nav-contact active">Contact Us</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="inner-hero contact-hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="assets/videos/contact.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="inner-hero-content">
+            <span class="hero-tag">LET'S START A CONVERSATION</span>
+            <h1>LET'S GET YOUR<br>PROJECT MOVING.</h1>
+            <p>Tell us about your transport requirements. We're ready to hear from you.</p>
+            <a href="#contact-section" class="btn btn-primary">Send An Enquiry</a>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="contact-heading section-padding" id="contact-section">
+        <div class="section-label">CONTACT MUSUSUMELI LOGISTICS</div>
+        <h2>Every successful journey<br>starts with a conversation.</h2>
+        <p>
+            Whether you need construction materials or equipment transported,
+            share your requirements with us. Let's discuss your project
+            and explore the next steps.
+        </p>
+    </section>
+
+    <!-- CONTACT DETAILS AND FORM -->
+    <section class="contact-main section-padding">
+
+        <div class="contact-details">
+            <span class="section-label">GET IN TOUCH</span>
+            <h2>Let's talk<br>business.</h2>
+            <p class="contact-description">
+                Reach out directly or send us your project details using
+                the enquiry form.
+            </p>
+
+            <div class="contact-info-card">
+                <span class="contact-info-icon">☎</span>
+                <div>
+                    <small>CALL US</small>
+                    <a href="tel:0660096032">066 009 6032</a>
+                </div>
+            </div>
+
+            <div class="contact-info-card">
+                <span class="contact-info-icon">✉</span>
+                <div>
+                    <small>EMAIL US</small>
+                    <a href="mailto:mususumelilogistics@gmail.com">
+                        mususumelilogistics@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-info-card">
+                <span class="contact-info-icon">◉</span>
+                <div>
+                    <small>WHATSAPP</small>
+                    <a href="https://wa.me/27660096032" target="_blank" rel="noopener">
+                        Chat with us
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-note">
+                <span>PROJECT ENQUIRIES</span>
+                <p>
+                    For a more accurate discussion, include your load type,
+                    collection location and delivery destination.
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <div class="form-heading">
+                <span class="section-label">SEND AN ENQUIRY</span>
+                <h2>Tell us about your project.</h2>
+                <p>Complete the details below to prepare your enquiry email.</p>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName"
+                               placeholder="Your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="you@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone"
+                               placeholder="Your contact number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Required *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option>Construction Materials Transport</option>
+                            <option>Construction Equipment Transport</option>
+                            <option>Project Transport</option>
+                            <option>Other Enquiry</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="collection">Collection Location *</label>
+                        <input type="text" id="collection" name="collection"
+                               placeholder="Where should the load be collected?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="destination">Delivery Destination *</label>
+                        <input type="text" id="destination" name="destination"
+                               placeholder="Where should it be delivered?" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="load">Load / Equipment Description</label>
+                    <input type="text" id="load" name="load"
+                           placeholder="Describe the materials or equipment">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Tell us more about your project *</label>
+                    <textarea id="message" name="message" rows="5"
+                              placeholder="Share any important details about your transport requirements..."
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary submit-btn">
+                    Prepare My Enquiry <span>→</span>
+                </button>
+
+                <p class="form-disclaimer">
+                    Submitting this form opens an email draft in your email application.
+                    Your enquiry is not automatically stored on this website.
+                </p>
+
+                <p id="formStatus" class="form-status" aria-live="polite"></p>
+
+            </form>
+        </div>
+
+    </section>
+
+    <!-- FINAL CALL TO ACTION -->
+    <section class="contact-cta">
+        <div class="contact-cta-content">
+            <span class="section-label">MUSUSUMELI LOGISTICS</span>
+            <h2>YOUR NEXT PROJECT<br>STARTS HERE.</h2>
+            <p>Let's discuss your transport requirements.</p>
+            <a href="https://wa.me/27660096032" target="_blank"
+               rel="noopener" class="btn btn-primary">Chat On WhatsApp</a>
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-grid">
+
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                <span class="logo-main">MUSUSUMELI</span>
+                <span class="logo-sub">LOGISTICS</span>
+            </a>
+            <p>Moving business forward.</p>
+        </div>
+
+        <div>
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="fleet.html">Fleet</a>
+            <a href="industries.html">Industries</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <a href="mailto:mususumelilogistics@gmail.com">Email Us</a>
+            <a href="tel:0660096032">066 009 6032</a>
+            <a href="https://wa.me/27660096032" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="year"></span> Mususumeli Logistics. All rights reserved.</p>
+        <p>Moving Business Forward.</p>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/contact.js"></script>
+
+</body>
+</html>
